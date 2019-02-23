@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
   
   post '/puppy' do
-    @puppy = Puppy.new(params[user])
+    @puppy = Puppy.new(params[:user_text])
   end
 
 end
