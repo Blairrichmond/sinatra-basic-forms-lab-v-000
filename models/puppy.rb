@@ -2,6 +2,8 @@ class Puppy
   
   attr_accessor :breed, :age 
   
-  def in
+  def initialize
+    
+  end
   
 end
